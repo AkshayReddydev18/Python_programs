@@ -1,3 +1,5 @@
+
+# longest substring
 def lengthOfLongestSubstring(s: str) -> int:
         char_index = {}
         start = max_length = 0
@@ -11,3 +13,4 @@ def lengthOfLongestSubstring(s: str) -> int:
 # s = "pwwkew"
 s = "bbbbb"
 print(lengthOfLongestSubstring(s))
+
